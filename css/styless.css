@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Quicksand', sans-serif;
+}
+body {
+	background-color: #f8f8f8;
+}
+.box-formulir{
+	width: 50%;
+	margin: 100px auto;
+}
+.box{
+	background-color: #fff;
+	border: 1px;
+	padding: 10px;
+	box-sizing: border-box;
+	margin: 5px 0 25px;
+}
+.table-form {
+	width: 100%;
+}
+.table-form tr td:nth-child(1){
+	width: 30%;
+}
+.input-control{
+	padding: 5px 10px;
+	font-size: 16px;
+	margin: 5px 0;
+}
+.btn-daftar{
+	padding: 11px 17px;
+	background-color: #4A99D7;
+	color: #fff;
+	border: none;
+	font-size: 16px;
+}
+.btn-daftar:hover{
+	cursor: pointer;
+	background-color: #148F77;
+}
+.btn-cetak{
+	display: inline-block;
+	padding: 10px 17px;
+	color: #fff;
+	background-color:#4A99D7;
+	margin-top: 5px;
+}
+.table-data {
+	width: 100%;
+	margin-top: 10px;
+}
+.table-data tr {
+	width: 35px;
+}
+.table-data tr td:nth-child(1){
+	width: 30%;
+}
